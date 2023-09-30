@@ -25,6 +25,7 @@ To run this app on your local machine or Android device, follow these steps:
 3. Build and run the application on an Android emulator or a physical Android device.
 
 ## UI
-![Screenshot_1696065828](https://github.com/bimalkaf/Android_TicTacToe_Online/assets/60041910/1492b4d6-90c6-4e1b-864c-5b54ab10345f)
+<img width="1403" alt="Screenshot 2023-09-30 at 20 51 53" src="https://github.com/bimalkaf/Android_TicTacToe_Online/assets/60041910/f69273f6-5ad1-446f-84b1-550508022ce5">
+
 
 **Happy Coding!** 🚀
