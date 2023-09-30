@@ -27,5 +27,66 @@
         android:layout_margin="8dp"
         android:padding="8dp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/create_online_game_btn"
+        android:text="Create Game Online"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_id_input"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:hint="Enter game Id"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/join_online_game_btn"
+        android:text="Join Game Online"
+        android:layout_margin="8dp"
+        android:padding="8dp"/>
 
 </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
