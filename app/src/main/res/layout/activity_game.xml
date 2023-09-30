@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:layout_margin="8dp"
+        android:layout_gravity="center"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/game_status_text"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:text="Game not started"
+        android:letterSpacing="0.04"
+        android:textColor="#009688"/>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="3">
+
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="0"
+            android:id="@+id/btn_0"
+            tools:text="X"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="1"
+            android:id="@+id/btn_1"
+            tools:text="X"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="2"
+            android:id="@+id/btn_2"
+            tools:text="X"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="3"
+            android:id="@+id/btn_3"
+            tools:text="X"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="4"
+            android:id="@+id/btn_4"
+            tools:text="X"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="5"
+            android:id="@+id/btn_5"
+            tools:text="X"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="6"
+            android:id="@+id/btn_6"
+            tools:text="X"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="7"
+            android:id="@+id/btn_7"
+            tools:text="X"/>
+        <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:textSize="60sp"
+            android:tag="8"
+            android:id="@+id/btn_8"
+            tools:text="X"/>
+
+
+
+
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:text="Start game"
+        android:id="@+id/start_game_btn"/>
+
+
+
+
+
+
+
+
+
+</LinearLayout>
